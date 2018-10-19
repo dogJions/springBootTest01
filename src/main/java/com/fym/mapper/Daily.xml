@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Configuration 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.fym.mapper.Daily">
+	<select id="selectAll" resultType="com.fym.entity.Daily">
+		select * from daily
+	</select>
+</mapper>
+
+

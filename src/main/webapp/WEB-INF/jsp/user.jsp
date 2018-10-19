@@ -8,8 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-			<c:forEach var="c" items="${user}">
+			<%-- <c:forEach var="c" items="${user}">
 				${c.uId}${c.uName}${c.uPsw}<br/>
+			</c:forEach> --%>
+			
+			<c:forEach var="c" items="${user}">
+				${c.date}${c.GName}${c.quantity}<br/>
 			</c:forEach>
+			
 </body>
 </html>
